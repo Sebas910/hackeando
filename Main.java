@@ -4,5 +4,6 @@ public class Main {
         
         System.out.println("Luciano es gay y le gusta el chocolate");
         System.out.println("Luciano es el amor de mi vida");
+        System.out.println("Luciano es el mejor programador del mundo");
     }
 }
