@@ -1,9 +1,7 @@
-public class Main {
+public class Main{
 
-    public static void main(String[] args) {
-        
-        System.out.println("Luciano es gay y le gusta el chocolate");
-        System.out.println("Luciano es el amor de mi vida");
-        System.out.println("Luciano es el mejor programador del mundo");
-    }
+    static void main(String[])
+
+        System.out.System.out.println("hola mundo");
+
 }
