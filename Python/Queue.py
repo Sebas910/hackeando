@@ -22,10 +22,11 @@ class Queue:
         
         else:
             busqueda = True
-        
+
+            Node_aux = self.header
+            
             while busqueda:
             
-                Node_aux = self.header
             
                 if Node_aux.next != None:
                 
@@ -35,13 +36,13 @@ class Queue:
                 
                     busqueda =  False
                 
-                    Node.aux.next = new_node 
+                    Node_aux.next = new_node 
 
 
-    def dequeue(self, Element):
+    def dequeue(self):
             
-            busqueda = True
-            while busqueda:
+            
+            while True:
                         
                 if self.header.next != None:
                 
@@ -51,7 +52,8 @@ class Queue:
                 
                 else:
                     
-                    print("La cola se encuentra vacia")
+                    return None
+
                         
                     
                 
