@@ -38,7 +38,7 @@ class Queue:
                     Node.aux.next = new_node 
 
 
-        def dequeue(self, Element):
+    def dequeue(self, Element):
             
             busqueda = True
             while busqueda:
